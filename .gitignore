@@ -12,6 +12,8 @@
 # next.js
 /.next/
 /out/
+/.idea
+/.idea/vcs.xml
 
 # production
 /build
