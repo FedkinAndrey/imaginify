@@ -7,7 +7,11 @@
     "next",
     "next/core-web-vitals"
   ],
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -23,7 +27,8 @@
     "react/prop-types": "off",
     "no-unused-vars": "warn",
     "react/no-unescaped-entities": "off",
-    "@typescript-eslint/no-explicit-any": "warn"
+    "@typescript-eslint/no-explicit-any": "warn",
+    "no-prototype-builtins": "warn"
   },
   "settings": {
     "react": {
